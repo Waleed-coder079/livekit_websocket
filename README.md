@@ -50,7 +50,7 @@ It listens on `ws://127.0.0.1:8080/ws`.
 You can run the agent script directly:
 ```powershell
 .\venv\Scripts\Activate.ps1
-python .\livekit_basic_agent.py
+python .\main.py
 ```
 
 Or use the helper PowerShell script (passes an optional mode argument, defaults to `console`):
@@ -62,7 +62,7 @@ Or use the helper PowerShell script (passes an optional mode argument, defaults 
 When the worker connects to your LiveKit server, you can invite it into a room.
 
 ## Files
-- `livekit_basic_agent.py` — Agent entrypoint; wires STT/TTS/VAD and the WebSocket LLM.
+- `main.py` — Agent entrypoint; wires STT/TTS/VAD and the WebSocket LLM.
 - `server.py` — Minimal echo WebSocket server for local testing.
 - `requirements.txt` — Python dependencies.
 - `start-agent.ps1` — Convenience script to run the agent on Windows.

@@ -1,0 +1,7 @@
+python-dotenv
+websockets
+livekit
+livekit-agents
+livekit-plugins-deepgram
+livekit-plugins-elevenlabs
+livekit-plugins-silero
